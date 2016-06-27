@@ -1,0 +1,43 @@
+<%
+    var title = '';
+    if (page.category) title = page.category;
+    if (page.tag) title = "#" + page.tag;
+    if (page.archive) {
+        if (page.year) title = page.year + (page.month ? '/' + page.month : '');
+        else title = __('archive_a');
+    }
+%>
+
+<!-- Page Header -->
+<!-- Set your background image for this header in the theme's configuration: index_cover -->
+<header class="intro-header gradient">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading">
+
+                    <div class="card hoverable mission-container">
+                      <img src="img/blog-logo-full.svg"  style="height: 300px"/>
+
+                    </div>
+                    <hr class="small">
+                    <span class="subheading"><%- config.subtitle %></span>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <% page.posts.each(function(item){ %>
+                <%- partial('_partial/article-archive', {item: item}) %>
+            <% }); %>
+            <div class="archive-before-pagination"></div>
+            <%- partial('_partial/pagination') %>
+        </div>
+    </div>
+</div>

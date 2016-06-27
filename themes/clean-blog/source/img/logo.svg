@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="833px" height="816px" viewBox="0 0 833 816" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.2 (29753) - http://www.bohemiancoding.com/sketch -->
+    <title>projectwork.io.logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#80C3F3" offset="0%"></stop>
+            <stop stop-color="#4990E2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#04C33F" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-3" points="416 20 774 631 58 631"></polygon>
+        <polygon id="path-4" points="416.02797 0 832 203.787879 832 611.363636 416.02797 815.151515 0.0559394434 611.363636 0.0559394434 203.787879"></polygon>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="8.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="3" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="831.944061" height="815.151515" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+    </defs>
+    <g id="projectwork.io" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-1" transform="translate(-199.000000, -184.000000)">
+            <g id="Group-2" transform="translate(7.000000, 184.000000)">
+                <g id="projectwork.io.logo" transform="translate(192.212500, 0.000000)">
+                    <g id="Triangle-1">
+                        <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+                        <use fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="Polygon-1">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                        <use stroke-opacity="0.586984828" stroke="#AAAAAA" mask="url(#mask-6)" stroke-width="4" xlink:href="#path-4"></use>
+                    </g>
+                    <path d="M295,272 L295,611 L361.939847,611 L361.939847,489.453782 L432.290642,489.453782 C451.335195,489.453782 467.537034,486.367678 480.896645,480.195378 C494.256257,474.023078 505.128544,465.8726 513.513832,455.743697 C521.89912,445.614795 528.01034,433.982559 531.847675,420.846639 C535.685011,407.710719 537.60365,394.337603 537.60365,380.726891 C537.60365,366.79965 535.685011,353.347404 531.847675,340.369748 C528.01034,327.392092 521.89912,315.838986 513.513832,305.710084 C505.128544,295.581182 494.256257,287.430703 480.896645,281.258403 C467.537034,275.086104 451.335195,272 432.290642,272 L295,272 Z" id="P" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
