@@ -70,8 +70,8 @@ theme: clean-blog #raytaylorism
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: github
-  repo: git@github.com:sharden/projectwork-io-blog.git
+  type: git
+  repo: https://github.com/sharden/projectwork-io-blog.git
   message: Blog updated
   #type: heroku
   #repo: https://git.heroku.com/murmuring-basin-20327.git
